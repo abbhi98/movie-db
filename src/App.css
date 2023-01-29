@@ -1,0 +1,20 @@
+:root {
+    --font-color: #D4D7DD;
+    --nav-color: #1F2A3C;
+    --card-color: #394B61;
+}
+*{
+    box-sizing: border-box;
+    color: #D4D7DD;
+    font-family: 'Inter', sans-serif !important;
+
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}

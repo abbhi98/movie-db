@@ -1,0 +1,20 @@
+#profile-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('https://s3-alpha-sig.figma.com/img/29e5/f7bb/0ab57339bb6ce4ba4928448f183657ed?Expires=1675641600&Signature=Wi1NKS7ptAReP71VbEqnxP7m7Jo~bFky7VgKBsMJmJp2ACpyYzEfswwVQeQ8B2TrPG6ng3Gp0oxNQFx2w~OMha7GRhqnLjB6FG5cRWuyjiPFS4Qy1tCuy3QGHHHCd2R8Q-w4YfM4y0pLJ1yGeirB1scv7xFeYrVk~0VyDPfsNRoxvNvcPcJhtGRvHgwzrJJP7pFRFxyZUU3V5snzCoVkoz5G3MYDRMgeJbgwuJcBj5LRndkPijtwNjKVj4JrC3mpwriaa-ciIN3XIJ5zPhzSdaspFq2Y29IV2MGZXmm11FnvOi-suw1DRV~lUweX5XH1pr6icG5iT18ck63RwB7f2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+}
+#user-name{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+}

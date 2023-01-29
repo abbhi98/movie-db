@@ -1,0 +1,29 @@
+hr{
+    border: 0.5px solid #394B61;
+    margin: 20px 0;
+}
+.menu-item{
+    padding: 5px;
+    text-align: left;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 7px 0 7px 45px;
+}
+.menu-item label{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.menu-item svg{
+    font-size: 22px;
+}
+.selected-tab{
+    border-right: 3px solid #00E0FF;
+}
+.selected-tab label{
+    color: #00E0FF;
+}
+.selected-tab svg{
+    fill: #00E0FF;
+}

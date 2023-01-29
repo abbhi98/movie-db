@@ -1,0 +1,17 @@
+#topbar{
+    background: var(--nav-color);
+    padding: 10px;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorRight{
+    padding: 0;
+    border-radius: 0 !important;
+}
+#topbar svg{
+    font-size: 2rem !important;
+    margin: 10px;
+}

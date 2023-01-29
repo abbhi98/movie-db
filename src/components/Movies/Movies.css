@@ -1,0 +1,50 @@
+#movies-container{
+    padding: 20px 40px;
+    width: calc(100vw - 275px);
+    margin-left: 275px;
+    background: #273244;
+    height: 100vh;
+    overflow: auto;
+}
+.MuiPaper-root {
+    padding: 10px;
+    background-color: #394B61 !important;
+    color: #fff !important;
+    border-radius: 11px !important;
+    cursor: pointer;
+}
+.MuiCardContent-root{
+    padding: 16px 4px 0 !important;
+    text-align: left;
+}
+.MuiTypography-root{
+    font-size: 15px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600 !important;
+}
+.MuiCardMedia-img{
+    height: 200px;
+    border-radius: 6px;
+}
+.MuiCardActions-root{
+    padding: 5px 0 !important;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 40px 0;
+    line-height: 44px;
+    height: 55px;
+}
+.w-100{
+    width: 100vw !important;
+    margin-left: 0 !important;
+}
+@media screen and (max-width: 600px) {
+    .MuiGrid-root.MuiGrid-container{
+        margin-top: 50px;
+    }
+}

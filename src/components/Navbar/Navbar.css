@@ -1,0 +1,8 @@
+.navbar{
+    background: #1F2A3C;
+    width: 275px;
+    height: 100vh;
+}
+.navbar.sidemenu{
+    position: fixed;
+}
